@@ -1,15 +1,14 @@
-{
-  "label": "Gauge Rafael",
-  "id": "gauge-rafael",
-  "info": {
-    "description": "Gauge SVG criado por Rafael para dashboards do Looker Studio",
-    "author": "Rafael Rodrigues Pinto",
-    "url": "https://rafaelpinto85.github.io/looker-gauge-rafael/"
-  },
-  "visualization": {
-    "js_file": "src/script.js",
-    "css_file": "src/style.css",
-    "html_file": "src/index.html"
-  }
+﻿{
+  "name": "Looker Gauge Rafael",
+  "organization": "rafaelpinto85",
+  "description": "Gauge em SVG customizado para Looker Studio",
+  "devMode": true,
+  "components": [
+    {
+      "id": "gaugeChart",
+      "name": "Gauge Chart Rafael",
+      "type": "visualization",
+      "entrypoint": "dev/index.html"
+    }
+  ]
 }
-
