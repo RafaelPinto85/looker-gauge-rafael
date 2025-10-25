@@ -1,13 +1,15 @@
 {
-  "name": "Custom Gauge Rafael",
-  "organization": "Rafael Pinto",
-  "description": "Gauge personalizado para Looker Studio.",
-  "logoUrl": "https://rafaelpinto.github.io/looker-gauge-rafael/src/logo.png",
-  "organizationUrl": "https://github.com/rafaelpinto",
-  "components": [{
-    "id": "gauge",
-    "name": "Rafael Gauge",
-    "type": "Gviz",
-    "entryPoint": "src/index.html"
-  }]
+  "label": "Gauge Rafael",
+  "id": "gauge-rafael",
+  "info": {
+    "description": "Gauge SVG criado por Rafael para dashboards do Looker Studio",
+    "author": "Rafael Rodrigues Pinto",
+    "url": "https://rafaelpinto85.github.io/looker-gauge-rafael/"
+  },
+  "visualization": {
+    "js_file": "src/script.js",
+    "css_file": "src/style.css",
+    "html_file": "src/index.html"
+  }
 }
+
