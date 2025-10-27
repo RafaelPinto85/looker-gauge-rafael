@@ -1,4 +1,32 @@
-﻿(function() {
+﻿(function(global){
+  // Shim mínimo do dscc para permitir testes locais.
+  // O Looker Studio injeta a versão real em ambiente de produção.
+  var dscc = {
+    // subscribe recebe uma função draw; aqui chamamos draw com dados de exemplo ao carregar
+    subscribe: function(drawFn){
+      // quando o script for carregado, chama drawFn com dados de exemplo para render local
+      function tryDraw(){
+        try {
+          var exampleData = {
+            tables: { DEFAULT: { rows: [[\"\", 62]] } },
+            config: {}
+          };
+          drawFn(exampleData, document.getElementById('gauge-root'));
+        } catch(e) {
+          // ignore
+        }
+      }
+      if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        setTimeout(tryDraw, 10);
+      } else {
+        window.addEventListener('load', tryDraw);
+      }
+    }
+  };
+  // expõe global
+  global.dscc = dscc;
+})(window);
+(function() {
   // Vis code for Looker Studio community visualization
   // Dependências: dscc (injetado no bundle)
   const dscc = window.dscc || {};
