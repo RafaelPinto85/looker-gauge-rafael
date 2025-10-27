@@ -1,4 +1,12 @@
 ﻿{
-  "style": [],
-  "data": []
+  ""zones"": [
+    { ""label"": ""Baixo"",  ""to"": 25,  ""color"": ""#d9534f"" },
+    { ""label"": ""Médio-baixo"", ""to"": 50,  ""color"": ""#f0ad4e"" },
+    { ""label"": ""Médio"", ""to"": 75,  ""color"": ""#5bc0de"" },
+    { ""label"": ""Alto"", ""to"": 100, ""color"": ""#5cb85c"" }
+  ],
+  ""min"": 0,
+  ""max"": 100,
+  ""needleColor"": ""#222222"",
+  ""showValue"": true
 }

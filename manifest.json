@@ -1,23 +1,22 @@
 ﻿{
-  "name": "Medidor Rafael",
-  "organization": "rafaelpinto85",
-  "description": "Visualização de medidor em SVG criada por Rafael para dashboards no Looker Studio.",
-  "logoUrl": "https://rafaelpinto85.github.io/looker-gauge-rafael/logo.png",
-  "organizationUrl": "https://rafaelpinto85.github.io",
-  "supportUrl": "mailto:rafael@moki.com.br",
-  "privacyPolicyUrl": "",
-  "termsOfServiceUrl": "",
-  "devMode": true,
-  "components": [
+  ""name"": ""Medidor Rafael"",
+  ""organization"": ""rafaelpinto85"",
+  ""description"": ""Medidor gauge em SVG com 4 zonas de cor (configuráveis)."",
+  ""logoUrl"": ""https://rafaelpinto85.github.io/looker-gauge-rafael/logo.png"",
+  ""organizationUrl"": ""https://rafaelpinto85.github.io"",
+  ""supportUrl"": ""mailto:rafael@moki.com.br"",
+  ""devMode"": true,
+  ""components"": [
     {
-      "id": "medidorRafael",
-      "name": "Medidor Rafael",
-      "description": "Visualização personalizada de medidor em SVG.",
-      "iconUrl": "https://rafaelpinto85.github.io/looker-gauge-rafael/icon.png",
-      "resource": {
-        "js": "https://rafaelpinto85.github.io/looker-gauge-rafael/dev/script.js",
-        "css": "https://rafaelpinto85.github.io/looker-gauge-rafael/dev/style.css",
-        "config": "https://rafaelpinto85.github.io/looker-gauge-rafael/dev/config.json"
+      ""id"": ""medidorRafael"",
+      ""name"": ""Medidor Rafael"",
+      ""description"": ""Gauge SVG com 4 opções de cor"",
+      ""iconUrl"": ""https://rafaelpinto85.github.io/looker-gauge-rafael/icon.png"",
+      ""resource"": {
+        ""js"": ""https://rafaelpinto85.github.io/looker-gauge-rafael/dev/bundle.js"",
+        ""css"": ""https://rafaelpinto85.github.io/looker-gauge-rafael/dev/style.css"",
+        ""html"": ""https://rafaelpinto85.github.io/looker-gauge-rafael/dev/index.html"",
+        ""config"": ""https://rafaelpinto85.github.io/looker-gauge-rafael/dev/config.json""
       }
     }
   ]
