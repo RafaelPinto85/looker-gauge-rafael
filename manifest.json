@@ -1,21 +1,23 @@
 ﻿{
-  "name": "Gauge Rafael",
+  "name": "Medidor Rafael",
   "organization": "rafaelpinto85",
-  "description": "Visualização de gauge em SVG para Looker Studio",
+  "description": "Visualização de medidor em SVG criada por Rafael para dashboards no Looker Studio.",
   "logoUrl": "https://rafaelpinto85.github.io/looker-gauge-rafael/logo.png",
   "organizationUrl": "https://rafaelpinto85.github.io",
   "supportUrl": "mailto:rafael@moki.com.br",
+  "privacyPolicyUrl": "",
+  "termsOfServiceUrl": "",
   "devMode": true,
   "components": [
     {
-      "id": "gaugeRafael",
-      "name": "Gauge Rafael",
-      "description": "Gauge SVG customizado criado por Rafael",
+      "id": "medidorRafael",
+      "name": "Medidor Rafael",
+      "description": "Visualização personalizada de medidor em SVG.",
       "iconUrl": "https://rafaelpinto85.github.io/looker-gauge-rafael/icon.png",
       "resource": {
         "js": "https://rafaelpinto85.github.io/looker-gauge-rafael/dev/script.js",
         "css": "https://rafaelpinto85.github.io/looker-gauge-rafael/dev/style.css",
-        "html": "https://rafaelpinto85.github.io/looker-gauge-rafael/dev/index.html"
+        "config": "https://rafaelpinto85.github.io/looker-gauge-rafael/dev/config.json"
       }
     }
   ]
