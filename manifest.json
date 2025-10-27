@@ -5,20 +5,17 @@
   "logoUrl": "https://rafaelpinto85.github.io/looker-gauge-rafael/logo.png",
   "organizationUrl": "https://rafaelpinto85.github.io",
   "supportUrl": "mailto:rafael@moki.com.br",
-  "privacyPolicyUrl": "",
-  "termsOfServiceUrl": "",
   "devMode": true,
-"timestamp": "2025-10-27T09:19:53Z",
   "components": [
     {
       "id": "gaugeRafael",
       "name": "Gauge Rafael",
-      "description": "Gauge SVG customizado",
+      "description": "Gauge SVG customizado criado por Rafael",
       "iconUrl": "https://rafaelpinto85.github.io/looker-gauge-rafael/icon.png",
       "resource": {
         "js": "https://rafaelpinto85.github.io/looker-gauge-rafael/dev/script.js",
         "css": "https://rafaelpinto85.github.io/looker-gauge-rafael/dev/style.css",
-        "config": "https://rafaelpinto85.github.io/looker-gauge-rafael/dev/config.json"
+        "html": "https://rafaelpinto85.github.io/looker-gauge-rafael/dev/index.html"
       }
     }
   ]
