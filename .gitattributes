@@ -1,0 +1,91 @@
+﻿manifest.json text eol=lf working-tree-encoding=UTF-8
+*.json text eol=lf working-tree-encoding=UTF-8
+*.json text eol=lf
+*.json linguist-language=JSON
+*.json filter=json
+*.json diff=json
+*.json export-ignore
+*.json binary
+manifest.json text eol=lf
+manifest.json linguist-language=JSON
+manifest.json working-tree-encoding=UTF-8
+manifest.json export-ignore
+manifest.json binary
+*.json text eol=lf
+*.json linguist-language=JSON
+*.json working-tree-encoding=UTF-8
+*.json export-ignore
+*.json binary
+*.json text eol=lf
+*.json linguist-language=JSON
+*.json working-tree-encoding=UTF-8
+*.json export-ignore
+*.json binary
+*.json text eol=lf
+*.json linguist-language=JSON
+*.json working-tree-encoding=UTF-8
+*.json export-ignore
+*.json binary
+manifest.json text eol=lf
+manifest.json linguist-language=JSON
+manifest.json working-tree-encoding=UTF-8
+manifest.json export-ignore
+manifest.json binary
+manifest.json text eol=lf working-tree-encoding=UTF-8
+manifest.json linguist-language=JSON
+manifest.json diff=json
+manifest.json export-ignore
+manifest.json binary
+manifest.json linguist-language=JSON
+manifest.json diff=json
+manifest.json export-ignore
+manifest.json binary
+manifest.json linguist-language=JSON
+manifest.json diff=json
+manifest.json export-ignore
+manifest.json binary
+*.json linguist-language=JSON
+*.json diff=json
+*.json export-ignore
+*.json binary
+# Corrige tipo MIME
+*.json text eol=lf
+*.json linguist-language=JSON
+*.json working-tree-encoding=UTF-8
+manifest.json text eol=lf
+manifest.json linguist-language=JSON
+manifest.json working-tree-encoding=UTF-8
+*.json text eol=lf
+*.json linguist-language=JSON
+*.json working-tree-encoding=UTF-8
+*.json export-ignore
+manifest.json text eol=lf
+manifest.json linguist-language=JSON
+manifest.json working-tree-encoding=UTF-8
+manifest.json export-ignore
+*.json text eol=lf
+*.json linguist-language=JSON
+*.json working-tree-encoding=UTF-8
+*.json export-ignore
+manifest.json text eol=lf
+manifest.json linguist-language=JSON
+manifest.json working-tree-encoding=UTF-8
+manifest.json export-ignore
+*.json text eol=lf
+*.json linguist-language=JSON
+*.json working-tree-encoding=UTF-8
+*.json export-ignore
+*.json binary
+manifest.json text eol=lf working-tree-encoding=UTF-8
+manifest.json linguist-language=JSON
+manifest.json diff=json
+manifest.json export-ignore
+manifest.json binary
+*.json text eol=lf working-tree-encoding=UTF-8
+manifest.json text eol=lf working-tree-encoding=UTF-8
+manifest.json linguist-language=JSON
+manifest.json diff=json
+manifest.json export-ignore
+manifest.json binary
+# Garante o MIME type correto para o GitHub Pages
+manifest.json text eol=lf working-tree-encoding=UTF-8 linguist-language=JSON
